@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prospa Statement</title>
+    </head>
+    <body>
+        <style>
+            @font-face {
+                font-family: "BR FIRMA";
+                src: url("./font/BR\ Firma\ Regular.otf");
+                }
+
+                @font-face {
+                    font-family: 'BR FIRMABOLD';
+                    src: url('./font/BR\ Firma\ Bold.otf');
+                }
+            * {
+                font-family: 'BR FIRMA';
+            }
+            .flex {
+                display: flex;
+            }
+            .justify-content-between {
+                justify-content: space-between;
+            }
+            .justify-content-center {
+                justify-content: center;
+            }
+            .content {
+                padding: 10px;
+                width: 930px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            .content-flex {
+                flex: 1;
+            }
+            .bold {
+                font-family: 'BR FIRMABOLD';
+            }
+            ul {
+                text-decoration: none;
+                list-style-type: none;
+            }
+            .title {
+                line-height: 12px;
+                color: #FA4A84;
+            }
+            .title-size {
+                font-size: 14px;
+            }
+            .description {
+                line-height: 23px;
+            }
+            .secondary-color {
+                color: #1C1335;
+            }
+            .tertiary-color {
+                color: #04093F;
+            }
+            .company-name {
+                font-size: 13px;
+                line-height: 12px;
+            }
+            .title-bg {
+                background-color: #220A4D;
+                color: #ffffff;
+            }
+            .content-bg {
+                background: rgba(34, 10, 77, 0.6);
+                color: #ffffff;
+            }
+            .even {
+                background-color: #ccc;
+            }
+            table {
+                width: 100%;
+                color: #999
+            }
+
+            .text-center {
+                text-align: right;
+            }
+
+           table tr:nth-child(even) {
+            background-color: #f1f1f1;
+           }
+
+           thead tr th {
+            padding: 20px 0;
+            font-size: 13px;
+            
+           }
+
+           table tr td {
+            padding: 40px 5px;
+            font-size: 12px;
+            
+           }
+
+           .mr {
+            margin-right: 35px;
+           }
+
+         
+
+           table, th, td {
+            border: 0px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 0.1px solid #ccc ;
+          }
+        </style>
+        <div class="content">
+            <div class="content-flex">
+            <header class="flex justify-content-between">
+                <div>
+                    <img src="./images/goodnews_bank_logo.png"/ alt="goodnew bank logo">
+                    <div class="title bold title-size" style="margin-top: 33px">Andrew Diete-Koki</div>
+                    <div class="description title-size secondary-color" style="margin-top: 15px">3b Unity Close <br/>
+                        Lagos, NG<br/>
+                        0803 394 5839
+                    </div>
+                </div>
+                <div>
+                    <div class="bold secondary-color company-name text-center" style="margin-top: 50px; margin-bottom: 43px;">Good News Micro Finance Bank Statement</div>
+                    <div style="width: 100%; overflow: hidden;">
+                        <div style="width: 302px; float: right; margin-bottom: 30px; line-height: 1.8;">
+                            <div class="flex justify-content-between">
+                                <div>
+                                    <div class="title-size bold secondary-color">Bank Name:</div>
+                                    <div class="title-size bold secondary-color">Account Name:</div>
+                                    <div class="title-size bold secondary-color">Account Number:</div>
+                                    <div class="title-size bold secondary-color">Account Type:</div>
+                                    <div class="title-size bold secondary-color">Statement Period:</div>
+
+                                </div>
+                                <div>
+                                    <div class="title-size tertiary-color">Good News MFB</div>
+                                    <div class="title-size tertiary-color">Daily Bread Ltd</div>
+                                    <div class="title-size tertiary-color">11039495003</div>
+                                    <div class="title-size tertiary-color">Current</div>
+                                    <div class="title-size tertiary-color">27 Nov - 27 Dec 2022</div>
+
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                        <div style="width: 401px; margin-bottom: 30px;">
+                            <div class="title-bg title-size bold" style="padding: 11px 22px;">Account Summary</div>
+                            <div class="content-bg" style="margin: 0; padding: 5px 22px; line-height: 1.9;">
+                                <div class="flex justify-content-between">
+                                    <div>
+                                        <div class="title-size">Currency:</div>
+                                        <div class="title-size">Starting Balance:</div>
+                                        <div class="title-size">Total Credit:</div>
+                                        <div class="title-size">Total Debit:</div>
+                                        <div class="title-size">Ending Balance:</div>
+                                    </div>
+                                    <div>
+                                        <div class="title-size bold">NGN</div>
+                                        <div class="title-size bold">₦32,572.23</div>
+                                        <div class="title-size bold">₦32,572.23</div>
+                                        <div class="title-size bold">₦32,572.23</div>
+                                        <div class="title-size bold">₦32,572.23</div>
+
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                   
+                </div>
+            </header>
+            <table>
+
+                <thead class="title-bg">
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Details</th>
+                        <th>Reference</th>
+                        <th>AC/Name</th>
+                        <th>Deposit</th>
+                        <th>Withdrawal</th>
+                        <th>Balance</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aug 30</td>
+                        <td style="width: 30%">Mobile Recharge |+234806959595</td>
+                        <td>Otjhfhdhhrususuudhhhshs</td>
+                        <td>Current</td>
+                        <td>0.00</td>
+                        <td>100.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 30</td>
+                        <td style="width: 30%">Mobile Recharge |+234806959595</td>
+                        <td>Otjhfhdhhrususuudhhhshs</td>
+                        <td>Current</td>
+                        <td>0.00</td>
+                        <td>100.00</td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td>Aug 30</td>
+                        <td style="width: 30%">Mobile Recharge |+234806959595</td>
+                        <td>Otjhfhdhhrususuudhhhshs</td>
+                        <td>Current</td>
+                        <td>0.00</td>
+                        <td>100.00</td>
+                        <td>0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <div style="position: relative; margin: 100px 0;">
+                <img src="./images/logo_stamp.png" alt=="logo stamp" />
+                <img src="./images/signature.png" alt="signature" style="position: absolute; bottom: 41px;
+                left: 94px;"/>
+            </div>
+        </div>
+            <div style="align-items: baseline;">
+                <div class="flex justify-content-between" style="align-items: center">
+                    <div style="font-size: 14px;
+                    line-height: 12px;
+                    color: #979797;
+                    ">page 1 of 1</div>
+                    <img src="./images/goodnews_footer_logo.png" alt="footer logo"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
